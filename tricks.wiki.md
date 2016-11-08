@@ -1,4 +1,4 @@
-# Deep Learning Pratical tracks
+# Deep Learning Pratical tricks
 
 ### gradients w.r.t. input is too small
 
