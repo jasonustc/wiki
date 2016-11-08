@@ -22,3 +22,21 @@ int GetFileList(string folderPath, vector<string>& fileList){
 	return -1;
 }
 ```
+### CopyFileToFolder
+type: ```c/c++```
+
+@brief: copy source file to dest folder
+
+@return: 0
+
+```c++
+int CopyFileToFolder(string srcFile, string dstFolder){
+	boost::filesystem::create_directory(dstFolder.c_str());
+	string fName = srcFile.substr(srcFile.rfind("\\"));
+	fName = dstFolder + fName;
+	boost::filesystem::path srcPath(srcFile.c_str());
+	boost::filesystem::path dstPath(fName.c_str());
+	boost::filesystem::copy_file(srcPath, dstPath, boost::filesystem::copy_option::none);
+	return 0;
+}
+```
