@@ -4,7 +4,7 @@ type: ```c/c++```
 
 @return: 0, succeed; -1, failed
 
-```
+```c++
 int GetFileList(string folderPath, vector<string>& fileList){
 	fileList.clear();
 	if (!folderPath.empty()){
