@@ -2,7 +2,7 @@
 ### GetFileList
 type: ```c/c++```
 
-func: get all file list in the current folder
+@brief: get all file list in the current folder
 
 @return: 0, succeed; -1, failed
 
