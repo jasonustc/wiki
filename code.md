@@ -52,8 +52,8 @@ type ```python```
 ```python
 def get_folders_in_path(path):
     folder_list = []
-	for parent,dirnames,filenames in os.walk(path):
-	    for folder in dirnames:
-	        path = os.path.join(parent, folder)
-	return folder_list
+    for parent,dirnames,filenames in os.walk(path):
+        for folder in dirnames:
+	    folder_list.append(os.path.join(parent, folder))
+    return folder_list
 ```
