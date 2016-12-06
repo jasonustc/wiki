@@ -53,6 +53,7 @@ type ```python```
 import os
 
 def get_folders_in_path(path):
+    assert os.path.isdir(path)
     folder_list = []
     for parent,dirnames,filenames in os.walk(path):
         for folder in dirnames:
