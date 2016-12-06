@@ -50,6 +50,8 @@ type ```python```
 @return folder list
 
 ```python
+import os
+
 def get_folders_in_path(path):
     folder_list = []
     for parent,dirnames,filenames in os.walk(path):
