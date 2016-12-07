@@ -40,3 +40,7 @@ whitening, local contrast normalization, scaling, cropping, clipping
 usually, # of parameters should be in the same order of magnitudes as the # of samples.
 
 halve the size of feature maps, double the # of feature maps.
+
+### how to set kernel size and stride in deconvolution layer
+
+kernel size should be twice as much as the stride.
