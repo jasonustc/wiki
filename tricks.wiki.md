@@ -1,4 +1,4 @@
-# Deep Learning Pratical Tricks
+# Deep Learning Practical Tricks
 
 ### gradients w.r.t. input is too small
 
@@ -14,7 +14,7 @@ randomly reordering the input samples in each epoch.
 
 ### how many epoch is enough for training
 
-generally 4-100 epoches is enough, we can mainly refer to training loss and accuracy.
+generally 4-100 epoches is enough, we can mainly refer to training loss and validation accuracy curves.
 
 for fine-tuning, we need less epoches and smaller learning rate.
 
