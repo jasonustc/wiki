@@ -23,7 +23,7 @@ for fine-tuning, we need less epoches and smaller learning rate.
 gradient clip, random permutation of samples, smaller learning rate.
 
 
-### general setting of learning parameters?
+### general setting of learning parameters
 
 learning rate: 1e-1 ~ 1e-6
 
