@@ -34,3 +34,7 @@ weight_decay: 1e-4 - 1e-6
 ### general pre-processing tricks
 
 whitening, local contrast normalization, scaling, cropping, clipping
+
+### the scale of the model
+
+usually, # of parameters should be in the same order of magnitudes as the # of samples.
