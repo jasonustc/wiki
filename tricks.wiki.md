@@ -38,3 +38,5 @@ whitening, local contrast normalization, scaling, cropping, clipping
 ### the scale of the model
 
 usually, # of parameters should be in the same order of magnitudes as the # of samples.
+
+halve the size of feature maps, double the # of feature maps.
