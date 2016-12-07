@@ -21,3 +21,16 @@ for fine-tuning, we need less epoches and smaller learning rate.
 ### training loss oscillation
 
 gradient clip, random permutation of samples, smaller learning rate.
+
+
+### general setting of learning parameters?
+
+learning rate: 1e-1 ~ 1e-6
+
+momentum: 0.9 ~ 1
+
+weight_decay: 1e-4 - 1e-6
+
+### general pre-processing tricks
+
+whitening, local contrast normalization, scaling, cropping, clipping
