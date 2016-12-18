@@ -1,5 +1,7 @@
 # Deep Learning Practical Tricks
 
+Any suggestion please contact to <shenxuustc@gmail.com>
+
 ### gradients w.r.t. input is too small
 
 use larger loss_weights, e.g. 20, 100 ...
