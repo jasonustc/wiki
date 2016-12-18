@@ -20,11 +20,11 @@ for fine-tuning, we need less epoches and smaller learning rate.
 
 - training
 
-> **MNIST**  10000 iterations * 64 batch_size / 60000 = 6.4 epochs
+> **MNIST**  10,000 iterations * 64 batch_size / 60,000 = 6.4 epochs
 
-> **ImageNet** 450000 iterations * 256 batch_size / 1280000 = 22.5 epochs
+> **ImageNet** 450,000 iterations * 256 batch_size / 1,280,000 = 22.5 epochs
 
-- testing
+- fine-tuning
 
 ### training loss oscillation
 
