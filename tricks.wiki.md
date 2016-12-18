@@ -18,6 +18,8 @@ generally 4-100 epoches is enough, we can mainly refer to training loss and vali
 
 for fine-tuning, we need less epoches and smaller learning rate.
 
+**MNIST**  10000 iterations * 64 batch_size / 60000 = 6.4 epochs
+
 ### training loss oscillation
 
 gradient clip, random permutation of samples, smaller learning rate.
@@ -33,7 +35,7 @@ weight_decay: 1e-4 - 1e-6
 
 ### general pre-processing tricks
 
-whitening, local contrast normalization, scaling, cropping, clipping
+whitening, local contrast normalization, scaling, cropping, rotation, clipping
 
 ### the scale of the model
 
