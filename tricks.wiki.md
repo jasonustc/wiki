@@ -5,8 +5,13 @@
 use larger loss_weights, e.g. 20, 100 ...
 
 ### training loss explods or diverges
-
 use clip_gradients, usually 10~100, the absolute value does not really matters.
+
+randomly reorder samples. 
+
+check the network settings, e.g. data and label correctness, whether number of output is right.
+
+set debug_info: true in solver to monitor the progress of gradients and data.
 
 ### training loss is not stable
 
