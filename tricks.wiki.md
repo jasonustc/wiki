@@ -61,9 +61,9 @@ weight_decay and momentum also helps
 
 ### convolutional filter size selection
 3, 5, 7, 9, 11, which is better? maybe a compromise between local patch size and input size, maybe a constant ratio.
+From VGG net we can see that, 3 is OK for deep enough models.
 
-
-### use of validation set
+### usage of validation set
 
 first use validation accuracy for parameter selection, then incorporate it into training until training loss restores to that of no-validation training. 
 
