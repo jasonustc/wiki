@@ -79,3 +79,5 @@ when input data have random things, smaller or no momentum is better, otherwise,
 
 ### batch_size 
 not the bigger the better, maybe there is a balance between the times of update of model for each epoch and the involved number of samples for each update.
+
+> **MNIST** 64 **ImageNet** 256
