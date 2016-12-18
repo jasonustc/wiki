@@ -44,3 +44,12 @@ halve the size of feature maps, double the # of feature maps.
 ### how to set kernel size and stride in deconvolution layer
 
 kernel size should be twice as much as the stride.
+
+### help model to converge faster
+
+weights of innerproduct layers should be initialized 10 times of convolutional layers
+
+weight_decay and momentum also helps
+
+### convolutional filter size selection?
+3, 5, 7, 9, 11, which is better? 
