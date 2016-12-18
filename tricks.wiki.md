@@ -51,11 +51,11 @@ weights of innerproduct layers should be initialized 10 times of convolutional l
 
 weight_decay and momentum also helps
 
-### convolutional filter size selection?
+### convolutional filter size selection
 3, 5, 7, 9, 11, which is better? 
 
 
-### use of validation set?
+### use of validation set
 
 first use validation accuracy for parameter selection, then incorporate it into training until training loss restores to that of no-validation training. 
 
