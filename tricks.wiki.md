@@ -59,7 +59,7 @@ weights of innerproduct layers should be initialized 10 times of convolutional l
 
 weight_decay and momentum also helps.
 
-bias of last inner_product should be initialized with non-zeros.
+bias of last inner_product layer should be initialized with non-zeros.
 
 ### convolutional filter size selection
 3, 5, 7, 9, 11, which is better? maybe a compromise between local patch size and input size, maybe a constant ratio.
