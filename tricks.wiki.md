@@ -58,3 +58,6 @@ weight_decay and momentum also helps
 ### use of validation set?
 
 first use validation accuracy for parameter selection, then incorporate it into training until training loss restores to that of no-validation training. 
+
+### momentum
+when input data have random things, smaller or no momentum is better, otherwise, we should use regular momentum.
