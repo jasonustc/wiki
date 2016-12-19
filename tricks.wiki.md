@@ -85,3 +85,8 @@ not the bigger the better, maybe there is a balance between the times of update 
 > **MNIST** 60,000 / 64 =  937.5 / 64 = 14.65
 
 > **ImageNet** 1,280,000 / 256 = 5000 / 256 = 19.53
+
+### weird crash of executable
+recompile the exe first.
+
+index out of range for GPU memory visiting.
