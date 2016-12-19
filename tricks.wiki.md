@@ -76,6 +76,8 @@ From VGG net we can see that, 3 is OK for deep enough models.
 
 first use validation accuracy for parameter selection, then incorporate it into training until training loss restores to that of no-validation training. 
 
+iterate the model for at most 1 epoch, you can determine how this setting works.
+
 ### momentum
 when input data have random things, smaller or no momentum is better, otherwise, we should use regular momentum.
 
