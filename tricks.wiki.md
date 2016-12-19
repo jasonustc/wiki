@@ -1,6 +1,6 @@
 # Deep Learning Practical Tricks
 
-Any suggestion please contact to <shenxuustc@gmail.com>
+Any suggestion please contact <shenxuustc@gmail.com>
 
 ### gradients w.r.t. input is too small
 
