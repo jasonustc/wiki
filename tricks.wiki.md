@@ -92,3 +92,6 @@ not the bigger the better, maybe there is a balance between the times of update 
 recompile the exe first.
 
 index out of range for GPU memory visiting.
+
+### with nans
+log(0) or a / 0
