@@ -15,6 +15,8 @@ check the network settings, e.g. data and label correctness, whether number of o
 
 set debug_info: true in solver to monitor the progress of gradients and data.
 
+smaller learning rates.
+
 ### training loss is not stable
 
 randomly reordering the input samples in each epoch.
