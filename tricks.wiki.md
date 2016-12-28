@@ -50,7 +50,7 @@ weight_decay: 1e-4 - 1e-6
 
 ### general pre-processing tricks
 
-whitening, local contrast normalization, scaling, cropping, rotation, clipping
+whitening, local contrast normalization, scaling, cropping, rotation, clipping, ZCA normalization
 
 ### the scale of the model
 
