@@ -46,7 +46,7 @@ learning rate: 1e-1 ~ 1e-6
 
 momentum: 0.9 ~ 1
 
-weight_decay: 1e-4 - 1e-6
+weight_decay: 1e-4 ~ 1e-6
 
 ### general pre-processing tricks
 
