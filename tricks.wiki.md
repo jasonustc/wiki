@@ -58,6 +58,8 @@ usually, # of parameters should be in the same order of magnitudes as the # of s
 
 halve the size of feature maps, double the # of feature maps.
 
+keep the feature map size unchanged by setting proper pad and stride size is a good thing.
+
 ### how to set kernel size and stride in deconvolution layer
 
 kernel size should be twice as much as the stride.
