@@ -103,5 +103,7 @@ log(0) or a / 0
 ### overfitting?
 reduce the # of parameters in fc layers, try mean-pooling to reduce the size of a single feature map, and 1x1 convolution to reduce the # of feature maps.
 
+residual modules && batch normalization modules.
+
 ### fast way to check if the model is reasonable
 random sample a small portion of dataset, see if the model can overfitting on it.
