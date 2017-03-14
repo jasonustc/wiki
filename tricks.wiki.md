@@ -64,6 +64,8 @@ keep the feature map size unchanged by setting proper pad and stride size is a g
 
 kernel size should be twice as much as the stride.
 
+dilation according to order of layers can solve the mossaic effect.
+
 ### help model to converge faster
 
 weights of innerproduct layers should be initialized 10 times of convolutional layers.
