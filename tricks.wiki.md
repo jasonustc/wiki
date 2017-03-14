@@ -99,7 +99,7 @@ smaller batch size incooperate more stochasitic things, which acts as a type of 
 ### weird crash of executable
 recompile the exe first.
 
-index out of range for GPU memory visiting.
+index out of range for GPU memory (segmentation fault) or CPU memory visiting.
 
 ### with nans
 log(0) or a / 0
