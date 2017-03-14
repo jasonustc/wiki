@@ -113,3 +113,7 @@ dropout, weight decay etc.
 
 ### fast way to check if the model is reasonable
 random sample a small portion of dataset, see if the model can overfit on it.
+
+### check the learning status of the model
+
+inspect the training loss, validation loss and the gap between them.
