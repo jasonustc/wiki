@@ -114,6 +114,8 @@ dropout, weight decay etc.
 ### fast way to check if the model is reasonable
 random sample a small portion of dataset, see if the model can overfit on it.
 
-### check the learning status of the model
+### baby sitting the learning the model
 
-inspect the training loss, validation loss and the gap between them.
+inspect the training loss, validation loss and the gap between them. Big gap = overfitting; no gap -> increase the model capacity.
+
+ratio between the values and updates of parameters should be in 0.001 ~ 0.0001.
