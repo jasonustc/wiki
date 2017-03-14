@@ -90,6 +90,8 @@ not the bigger the better, maybe there is a balance between the times of update 
 
 > **ImageNet** 1,280,000 / 256 = 5000 / 256 = 19.53
 
+smaller batch size incooperate more stochasitic things, which acts as a type of noise regularization. Could be better.
+
 ### weird crash of executable
 recompile the exe first.
 
@@ -99,7 +101,7 @@ index out of range for GPU memory visiting.
 log(0) or a / 0
 
 ### overfitting?
-reduce the #of parameters in fc layers, try mean-pooling the reduce the size of single feature maps, and 1x1 convolution to reduce the # of feature maps.
+reduce the # of parameters in fc layers, try mean-pooling to reduce the size of a single feature map, and 1x1 convolution to reduce the # of feature maps.
 
 ### fast way to check if the model is reasonable
 random sample a small portion of dataset, see if the model can overfitting on it.
