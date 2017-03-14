@@ -97,3 +97,9 @@ index out of range for GPU memory visiting.
 
 ### with nans
 log(0) or a / 0
+
+### overfitting?
+reduce the #of parameters in fc layers, try mean-pooling the reduce the size of single feature maps, and 1x1 convolution to reduce the # of feature maps.
+
+### fast way to check if the model is reasonable
+random sample a small portion of dataset, see if the model can overfitting on it.
