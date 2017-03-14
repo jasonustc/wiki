@@ -114,7 +114,7 @@ dropout, weight decay etc.
 ### fast way to check if the model is reasonable
 random sample a small portion of dataset, see if the model can overfit on it.
 
-### baby sitting the learning the model
+### baby sitting the learning process of the model
 
 inspect the training loss, validation loss and the gap between them. Big gap = overfitting; no gap -> increase the model capacity.
 
