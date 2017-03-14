@@ -109,5 +109,7 @@ reduce the # of parameters in fc layers, try mean-pooling to reduce the size of 
 
 residual modules && batch normalization modules.
 
+dropout, weight decay etc.
+
 ### fast way to check if the model is reasonable
 random sample a small portion of dataset, see if the model can overfit on it.
