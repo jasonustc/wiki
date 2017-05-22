@@ -121,3 +121,6 @@ inspect the training loss, validation loss and the gap between them. Big gap = o
 ratio between the values and updates of parameters should be in 0.01 ~ 0.001.
 
 monitor the values and gradients of parameters and layer outputs in network.
+
+### learning rate setting for finetuning
+use only ~1/10th of the original learning rate in finetuning top layer and ~1/100th on intermediate layer. 
