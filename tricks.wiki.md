@@ -126,7 +126,8 @@ monitor the values and gradients of parameters and layer outputs in network.
 use only ~1/10th of the original learning rate in finetuning top layer and ~1/100th on intermediate layer. 
 
 ### proper weights of multiple losses
-if we want the losses to contribute equally to the gradients of the network, we can adjust loss weights to make sure that $$loss_i * loss_weight_i$$ is with the same magnitude.
+- in fact, we want the back propagated gradients of different loss are in the same scale
+- if we want the losses to contribute equally to the gradients of the network, we can adjust loss weights to make sure that $$loss_i * loss_weight_i$$ is with the same magnitude.
 
 ### interpretation of deep learning models
 - visualize magnitude of activations/weights
