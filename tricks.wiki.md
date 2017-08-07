@@ -132,3 +132,4 @@ if we want the losses to contribute equally to the gradients of the network, we 
 - visualize magnitude of activations/weights
 - find the inputs with the maximum activation value of given neurons
 - recounting: error maps of final converged model
+- success/failure cases: find the failure cases and most confident cases
