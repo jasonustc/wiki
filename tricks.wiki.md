@@ -124,3 +124,6 @@ monitor the values and gradients of parameters and layer outputs in network.
 
 ### learning rate setting for finetuning
 use only ~1/10th of the original learning rate in finetuning top layer and ~1/100th on intermediate layer. 
+
+### proper weights of multiple losses
+if we want the losses to contribute equally to the gradients of the network, we can adjust loss weights to make sure that $$loss_i * loss_weight_i$$ is with the same magnitude.
