@@ -60,3 +60,11 @@ def get_folders_in_path(path):
 	    folder_list.append(os.path.join(parent, folder))
     return folder_list
 ```
+
+### ffmpeg convert video format
+
+type ```shell```
+
+```shell
+ffmpeg -i file.avi -y -c:v libx264 -r 25 file.h264
+```
