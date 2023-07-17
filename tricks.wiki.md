@@ -127,7 +127,7 @@ use only ~1/10th of the original learning rate in finetuning top layer and ~1/10
 
 ### proper weights of multiple losses
 - generally, we want the back propagated gradients of different loss are in the same scale.
-- approximately, if we want the losses to contribute equally to the gradients of the network, we can adjust loss weights to make sure that $$loss_i * {loss\_weight}_i$$ is with the same magnitude.
+- approximately, if we want the losses to contribute equally to the gradients of the network, we can adjust loss weights to make sure that $$loss_i * {loss-weight}_i$$ is with the same magnitude.
 - practically, we only need to fix one, and tune the weight of other losses.
 
 ### interpretation of deep learning models
